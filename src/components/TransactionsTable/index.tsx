@@ -33,9 +33,18 @@ export const TransactionsTable: React.FC = () => {
           {transactions.map(transaction => (
               <tr key={transaction.id}>
                 <td>{transaction.title}</td>
-                <td className={transaction.type}>¥{transaction.amount}</td>
+                <td className={transaction.type}>
+                  {new Intl.NumberFormat('ja', {
+                    style: 'currency',
+                    currency: 'JPY'
+                  }).format(transaction.amount)}
+                </td>
                 <td>{transaction.category}</td>
-                <td>{transaction.createdAt}</td>
+                <td>
+                  {new Intl.DateTimeFormat('ja').format(
+                    new Date(transaction.createdAt)
+                  )}
+                </td>
               </tr>
             )
           )}

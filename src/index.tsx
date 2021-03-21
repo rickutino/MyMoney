@@ -17,7 +17,7 @@ createServer({
           type: 'deposit',
           category: '開発',
           amount: 120000,
-          createAt: new Date('2021-03-18 10:00:00'),
+          createdAt: new Date('2021-03-18 10:00:00'),
         },
         {
           id: 2,
@@ -25,7 +25,15 @@ createServer({
           type: 'withdraw',
           category: 'ローン',
           amount: 100000,
-          createAt: new Date('2021-04-05 11:00:00'),
+          createdAt: new Date('2021-04-05 11:00:00'),
+        },
+        {
+          id: 3,
+          title: "WEB制作案件",
+          type: 'deposit',
+          category: '開発',
+          amount: 200000,
+          createdAt: new Date('2021-04-06 11:00:00'),
         }
       ]
     })
