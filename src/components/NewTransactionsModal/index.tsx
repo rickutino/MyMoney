@@ -29,6 +29,8 @@ export const NewTransactionsModal: React.FC<NewTransactionModalProps> =
         type,
         category
       };
+
+      api.post('/transactions', data);
     }
     return (
       <Modal
