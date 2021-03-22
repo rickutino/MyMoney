@@ -8,8 +8,8 @@ import outcomeImg from '../../assets/outcome.svg';
 import totalImg from '../../assets/total.svg';
 
 export const Summary: React.FC = () => {
-  const transactions = useContext(TransactionsContext);
-  console.log(transactions)
+  const { transactions } = useContext(TransactionsContext);
+  
   return (
     <Container>
       <div>
