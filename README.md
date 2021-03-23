@@ -1,4 +1,5 @@
 <h1 align="center"><img src="https://user-images.githubusercontent.com/48019175/111630344-9c307e00-8835-11eb-9a74-66e8cb0af992.png" width="3.8%"></img>  Tameru</h1>
+ <h1 align="center"><img src="https://user-images.githubusercontent.com/48019175/112151950-2194a380-8c25-11eb-8a22-21e2171c02bd.png" width="８0%"></img>  </h1>
  
  <p align="center">
   <a href="#-technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -10,7 +11,7 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=33CC95&labelColor=5429CC">
 
-  <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=33CC95&labelColor=5429CC" alt="MirageJS" />
+  <img src="https://img.shields.io/static/v1?label=Mirage&message=JS&color=33CC95&labelColor=5429CC" alt="MirageJS" />
 </p>
 
 ## Description
@@ -21,10 +22,10 @@
  　使われているスキルなど。 
 
 - [TypeScript](https://www.typescriptlang.org/) 
-- [axios]
-- [miragejs]
-- [polished]
-- [styled-components]
+- axios
+- miragejs
+- polished
+- styled-components
 
 
 ## Getting started
