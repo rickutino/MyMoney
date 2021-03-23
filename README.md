@@ -4,45 +4,42 @@
   <a href="#-technology">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=33CC95&labelColor=5429CC">
 
-  <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=33CC95&labelColor=5429CC" alt="NLW 04" />
+  <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=33CC95&labelColor=5429CC" alt="MirageJS" />
 </p>
 
 ## Description
- 
-Household account book APP.
+ 簡易な家計簿アプリ。
  
  
 ## Technology 
- 
-Here are the technologies used in this project.
- 
+ 　使われているスキルなど。 
 
 - [TypeScript](https://www.typescriptlang.org/) 
- 
+- [axios]
+- [miragejs]
+- [polished]
+- [styled-components]
+
+
 ## Getting started
+　開発環境構築方法。
  
-* clone this repository:
->    $ git clone ....
-* To install dependency:
+* ローカルにレポジトリのクローンしてください:
+>    $ git clone https://github.com/rickutino/Tameru.git
+* Dependencyのインストール:
 >    $ yarn 
-* To run the project:
+* アプリの方法:
 >    $ yarn start
  
 ## How to use
  
-Here will be the images and descriptions. Principal content.
- 
- 
-## Features
- 
-  - Here will be the features.
+”New　Transaction”に家計簿を登録する。
  
  
 ## Links
