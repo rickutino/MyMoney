@@ -33,8 +33,8 @@ export const NewTransactionsModal: React.FC<NewTransactionModalProps> =
       })
       setTitle('');
       setAmount(0);
-      setType('');
-      setCategory('deposit');
+      setType('deposit');
+      setCategory('');
       onRequestClose();
     }
     return (
