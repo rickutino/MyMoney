@@ -5,7 +5,7 @@ interface Transaction  {
   id: number;
   title: string;
   amount: number;
-  type: 'deposit' | 'withdraw';
+  type: string;
   category: string;
   createdAt: string;
 }
@@ -19,10 +19,10 @@ interface TransactionsProviderProps {
 
 interface TransactionContextData {
   transactions: Transaction[];
-  createTransaction: (transaction: TransactionInput) => void;
+  createTransaction: (transaction: TransactionInput) => Promise<void>;
 }
 
-export const TransactionsContext = createContext<TransactionContextData>({} as TransactionContextData);
+export const TransactionsContext = createContext({} as TransactionContextData);
 
 export function TransactionsProvider({ children }:TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
@@ -32,8 +32,8 @@ export function TransactionsProvider({ children }:TransactionsProviderProps) {
       .then(response => setTransactions(response.data.transactions))
   }, []);
 
-  function createTransaction(transaction: TransactionInput) {
-    api.post('/transactions', transaction);
+  async function createTransaction(transaction: TransactionInput) {
+    await api.post('/transactions', transaction);
   }
 
   return (
